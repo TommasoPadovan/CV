@@ -129,7 +129,7 @@
 
 		%------------------------------------------------
 
-		{\Huge\color{mainblue}\cvname}
+		{\huge\color{mainblue}\cvname}
 
 		%------------------------------------------------
 
@@ -231,7 +231,7 @@
 		\textbf{#2}%
 		\hfill%
 		{\footnotesize#3}\\%
-		#4\vspace{\parsep}%
+		{\small#4\vspace{\parsep}}%
 	}\\
 }
 

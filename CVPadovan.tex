@@ -20,6 +20,8 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
 
 %----------------------------------------------------------------------------------------
 %	 PERSONAL INFORMATION
@@ -27,16 +29,18 @@
 
 % If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
 
-\profilepic{alice.jpeg} % Profile picture
+\profilepic{ImgPodoJedi.jpg} % Profile picture
 
-\cvname{Alice} % Your name
-\cvjobtitle{Adventurer} % Job title/career
+\cvname{Tommaso Padovan} % Your name
+\cvjobtitle{Computer Scientist} % Job title/career
 
-\cvdate{26 November 1865} % Date of birth
-\cvaddress{United Kingdom} % Short address/location, use \newline if more than 1 line is required
-\cvnumberphone{+39 0325658974} % Phone number
-\cvsite{http://en.wikipedia.org} % Personal website
-\cvmail{alice@wonderland.com} % Email address
+\cvdate{5 July 1993} % Date of birth
+\cvaddress{Rh\"{o}nring 141\newline
+Darmstadt, 64289\newline
+Germany} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+39 3484655214} % Phone number
+\cvsite{} % Personal website
+\cvmail{tommaso.pado@gmail.com} % Email address
 
 %----------------------------------------------------------------------------------------
 
@@ -68,9 +72,9 @@
 %	 INTERESTS
 %----------------------------------------------------------------------------------------
 
-\section{Interests}
+% \section{Interests}
 
-The heroine and the dreamer of Wonderland; Alice is the principal character.
+% The heroine and the dreamer of Wonderland; Alice is the principal character.
 
 %----------------------------------------------------------------------------------------
 %	 EDUCATION
@@ -79,62 +83,108 @@ The heroine and the dreamer of Wonderland; Alice is the principal character.
 \section{Education}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{since 1865}{Ph.D. {\normalfont candidate in Computer Science}}{Wonderland}{\emph{A Quantified Theory of Social Cohesion.}}
-	\twentyitem{1863-1865}{M.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
-	\twentyitem{1861-1863}{B.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
-	\twentyitem{1856-1861}{High school}{Wonderland}{Specializing in mathematics and physics.}
+	\twentyitem{2017}
+		{Master degree (Erasmus) {\normalfont in Computer Science}}	{Darmstadt}
+		{Specializing in Computer Vision, CUDA and Game Technology at "TU Darmstadt"\footnotemark[1]}
+	\twentyitem{2016}
+		{Master degree in Computer Science}	{Padova (Italy)}
+		{At "Università degli Studi di Padova"\footnotemark[2]}
+	\twentyitem{2013-2016}
+		{Bachelor degree in Computer Science}	{Padova (Italy)}
+		{Achieved with 100/110 at "Università degli Studi di Padova"\footnotemark[2]}
+	\twentyitem{2007-2012}
+		{High school}	{Treviso (Italy)}
+		{Lyceum of Sciences and Informatics}
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
+
+\footnotetext[1]{https://www.informatik.tu-darmstadt.de}
+\footnotetext[2]{http://www.unipd.it}
+
 
 %----------------------------------------------------------------------------------------
 %	 PUBLICATIONS
 %----------------------------------------------------------------------------------------
 
-\section{Publications}
+% \section{Publications}
 
-\begin{twentyshort} % Environment for a short list with no descriptions
-	\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
-	\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
-	\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
-	\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
-	\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
-	%\twentyitemshort{<dates>}{<title/description>}
-\end{twentyshort}
+% \begin{twentyshort} % Environment for a short list with no descriptions
+% 	\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
+% 	\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+% 	\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+% 	\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+% 	\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+% 	%\twentyitemshort{<dates>}{<title/description>}
+% \end{twentyshort}
 
 %----------------------------------------------------------------------------------------
 %	 AWARDS
 %----------------------------------------------------------------------------------------
 
-\section{Awards}
+% \section{Awards}
 
-\begin{twentyshort} % Environment for a short list with no descriptions
-	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
-	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
-	%\twentyitemshort{<dates>}{<title/description>}
-\end{twentyshort}
+% \begin{twentyshort} % Environment for a short list with no descriptions
+% 	\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+% 	\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+% 	%\twentyitemshort{<dates>}{<title/description>}
+% \end{twentyshort}
 
 %----------------------------------------------------------------------------------------
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{Experience}
+\section{Work Experience}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{1900}{Alice in Wonderland-The Circra (1900's) Silent Film.}{Film}{The first Alice on film was over a hundred years ago.}
-	\twentyitem{1933}{Alice in Wonderland 1933 version.}{Film}{This film stars Ethel griffies and Charlotte Henry. It was a box office flop when it was released.}
-	\twentyitem{1951}{Disney Film.}{Film}{Walt Disney brings Lewis Carroll's fantasy story to life in this well done animated classic. Even though many elements from the book were dropped, such as the duchess with the baby pig and mock turtle, this version is without a doubt the most famous Alice adaption made.}
+	\twentyitem{2016-2017}
+		{Developer at "Vision Lab Apps srl"\footnotemark[3]}	{Part-time Job}
+		{Android + back-end of streaming application for smartphones and glasses.}
+	\twentyitem{2016}
+		{Developer at "Vic World Wide"\footnotemark[4]}	{Stage}
+		{Prototype app for "world 3D reconstruction" using Google-Tango framework on mobile devices.}
+	\twentyitem{2015-2016}
+		{Developer at "EasyApp srl"\footnotemark[5]}	{Freelance Job}
+		{Front-end and back-end  for ERPs.}
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
+
+\footnotetext[3]{http://www.visionlabapps.com}
+\footnotetext[4]{http://vicworldwide.com/it/your-eyes-worldwide}
+\footnotetext[5]{http://www.easyappsrl.it}
+
 
 %----------------------------------------------------------------------------------------
 %	 OTHER INFORMATION
 %----------------------------------------------------------------------------------------
 
-\section{Other information}
+\section{Skills - IT}
 
-\subsection{Review}
+\subsection{Programming languages and frameworks}
+\begin{minipage}[t]{0.45\linewidth}
+	Strong experience with:\\
+	\begin{itemize}
+		\item C++
+		\item Scala
+		\item Java
+		\item php
+	\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+	Discreet experience with:\\
+	\begin{itemize}
+		\item CUDA C++
+		\item Python
+		\item Javascript/NodeJS
+		\item Julia
+		\item Haskell
+		\item Go
+	\end{itemize}
+\end{minipage}
 
-Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+\ \\
+Good knowledge of \textbf{UML} graphical language and UML-editors (e.g. \textbf{Astah}).\\
+
+
 
 %----------------------------------------------------------------------------------------
 %	 SECOND PAGE EXAMPLE
