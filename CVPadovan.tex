@@ -22,6 +22,7 @@
 \documentclass[letterpaper]{twentysecondcv} % a4paper for A4
 \usepackage[utf8]{inputenc}
 \usepackage{multicol}
+\usepackage{enumitem}
 
 %----------------------------------------------------------------------------------------
 %	 PERSONAL INFORMATION
@@ -50,7 +51,7 @@ Germany} % Short address/location, use \newline if more than 1 line is required
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{Alice is a sensible prepubescent girl from a wealthy English family who finds herself in a strange world ruled by imagination and fantasy. Alice feels comfortable with her identity and has a strong sense that her environment is comprised of clear, logical, and consistent rules and features. Alice's familiarity with the world has led one critic to describe her as a "disembodied intellect". Alice displays great curiosity and attempts to fit her diverse experiences into a clear understanding of the world.} % To have no About Me section, just remove all the text and leave \aboutme{}
+\aboutme{} % To have no About Me section, just remove all the text and leave \aboutme{}
 
 %----------------------------------------------------------------------------------------
 %	 SKILLS
@@ -164,8 +165,9 @@ Germany} % Short address/location, use \newline if more than 1 line is required
 Strong knowledge in \textit{procedural}, \textit{object-oriented}, \textit{concurrent}, \textit{functional} and \textit{actor-based} programming paradigms.
 
 \begin{minipage}[t]{0.45\linewidth}
-	Strong experience with:\\
-	\begin{itemize}
+	Strong experience with:
+	\small
+	\begin{itemize}[noitemsep]
 		\item C++
 		\item Scala (and akka)
 		\item Java
@@ -173,8 +175,9 @@ Strong knowledge in \textit{procedural}, \textit{object-oriented}, \textit{concu
 	\end{itemize}
 \end{minipage}
 \begin{minipage}[t]{0.45\linewidth}
-	Discreet experience with:\\
-	\begin{itemize}
+	Discreet experience with:
+	\footnotesize
+	\begin{itemize}[noitemsep,nolistsep]
 		\item CUDA C++
 		\item Python
 		\item Javascript/NodeJS
@@ -184,16 +187,27 @@ Strong knowledge in \textit{procedural}, \textit{object-oriented}, \textit{concu
 	\end{itemize}
 \end{minipage}
 
+
 \subsection{Tools and frameworks}
-\begin{itemize}
+\begin{itemize}[noitemsep,nolistsep]
 	\item Good practice with IDEs and frameworks as \textbf{JetBrains Suite}, \textbf{QT}, \textbf{Android Studio}, \textbf{Laravel}, etc.
 	\item Familiarity with \textbf{Git}/\textbf{GitFlow} both with CLI and graphical interfaces; basic understanding of \textit{Subversion} and \textit{Mercurial}.
 	\item Teamwork experience acquired during academic and professional projects; good skills in using work management-tools such as \textbf{teamwork.com}, \textbf{Trello}, \textbf{GanttProject}, \textbf{Slack}, etc.
 	\item Good knowledge of \textbf{UML} graphical language and UML-editors (e.g. \textbf{Astah}).
-	\item Good knowledge of \textbf{Google Tango}\footnote[6]{https://developers.google.com/tango/} framework for augmented reality in mobile devices.
+	\item Good knowledge of \textbf{Google Tango}\footnotemark[6] framework for augmented reality in mobile devices.
+	\item Some experience with game-engine such as \textbf{Unreal Engine} and \textbf{Unity3D}.
 \end{itemize}
 
+\footnotetext[6]{https://developers.google.com/tango}
 
+
+
+\subsection{Some projects}
+\begin{itemize}[noitemsep,nolistsep]
+	\item \textbf{Actobase:} NoSQL database based on the actor model using Scala-lang with akka. Developed in a group of seven during an academic project. Source code available at: \url{https://github.com/SweeneyThreads/Actorbase}.
+	\item \textbf{Baobab:} Small set of Python scripts for simple neurological image analysis. Developed for/in collaboration with a PhD in psychiatry. \url{https://github.com/TommasoPadovan/Baobab}
+	\item \textbf{Other academic projects:} \\\url{https://github.com/TommasoPadovan/ProgettiUniPDTriennale}
+\end{itemize}
 
 
 
