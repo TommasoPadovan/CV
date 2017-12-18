@@ -28,9 +28,9 @@
 
 \definecolor{white}{RGB}{255,255,255}
 \definecolor{gray}{HTML}{4D4D4D}
-\definecolor{sidecolor}{HTML}{E7E7E7}
-\definecolor{mainblue}{HTML}{0E5484}
-\definecolor{maingray}{HTML}{B9B9B9}
+\definecolor{sidecolor}{HTML}{E7EAE7}
+\definecolor{mainblue}{HTML}{0E841E}
+\definecolor{maingray}{HTML}{B9C2B9}
 
 %----------------------------------------------------------------------------------------
 %	 MISC CONFIGURATIONS
