@@ -35,14 +35,14 @@
 
 % If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
 
-\profilepic{images/ImgPado.png} % Profile picture
+\profilepic{images/ImgPodoJedi.jpg} % Profile picture
 
 \cvname{Tommaso Padovan} % Your name
-\cvjobtitle{Master's Student\\in Computer Science} % Job title/career
+\cvjobtitle{Software Developer} % Job title/career
 
 \cvdate{5 July 1993} % Date of birth
-\cvaddress{Via Redipuglia 16\newline
-Padova (PD), 35131\newline
+\cvaddress{Via Gaetano Giardino 22\newline
+Padova (PD), 35138\newline
 Italy} % Short address/location, use \newline if more than 1 line is required
 \cvnumberphone{+39 3484655214} % Phone number
 \cvsite{} % Personal website
@@ -56,10 +56,10 @@ Italy} % Short address/location, use \newline if more than 1 line is required
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{
+\aboutme{	
 	I put my hands on my first coding language when I was 13, developing simple video-games with \textit{DarkBASIC}, and I suddenly realized it was my way.\\
-	Some years later I decided to "settle down", hang my games up for a while and begin studying computer science at \textit{Università degli Studi di Padova} (Italy). There I acquired strong knowledge in programming (mostly C++ and Java) and Software Engineering. In the same University I achieved my bachelor degree in 2016.\\
-	After that I began my master and then moved to Darmstadt (Germany) to go "back to basics" and sharpen my skills in game technology, computer vision and hardware acceleration. 
+	Some years later I decided to "settle down", hang my games up for a while and begin studying computer science at \textit{Università degli Studi di Padova} (Italy) where I achieved my bachelor degree in 2016.\\
+	The grown up version of that little punk has now a wonderfull addiction for the outdoors and mountain climbing; but he's still a part-time nerd, at least in the rainy days!
 } % To have no About Me section, just remove all the text and leave \aboutme{}
 
 %----------------------------------------------------------------------------------------
@@ -90,12 +90,35 @@ Italy} % Short address/location, use \newline if more than 1 line is required
 %	 EDUCATION
 %----------------------------------------------------------------------------------------
 
+\section{Work Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2019-now}
+		{Developer at Ifin Sistemi\footnotemarkA[8]} {Padova (Italy)}
+		{\begin{itemize}[noitemsep,nolistsep]
+				\item Android/iOS development with Flutter and Fabric
+				\item JavaEE development and testing
+				\item Team Leader of test department (JUnit, Selenium)
+			\end{itemize}
+		}
+	\twentyitem{2018-2019}
+		{Freelance at "EasyApp srl"\footnotemarkA[7]} {Treviso (Italy)}
+		{Back-end for web and maintenance}
+	\twentyitem{2016-2017}
+		{Developer at "Vision Lab Apps srl"\footnotemarkA[4]}	{Vicenza (Italy)}
+		{Android streaming application for smartphones and glasses.}
+	\twentyitem{2016}
+		{Developer at "Vic World Wide"\footnotemarkA[5] (Stage)}	{Padova (Italy)}
+		{Prototype app for "world 3D reconstruction" using Google-Tango framework\footnotemarkA[6] on mobile devices.}
+	\twentyitem{2014-2016}
+		{Developer at "EasyApp srl"\footnotemarkA[7]}	{Treviso (Italy)}
+		{Front-end and back-end for ERPs.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
 \section{Education}
 
 \begin{twenty} % Environment for a list with descriptions
-	\twentyitem{2016-now}
-		{Master in Computer Science}	{Padova (Italy)}
-		{At "Università degli Studi di Padova"\footnotemarkA[1]}
 	\twentyitem{2013-2016}
 		{Bachelor's degree in Computer Science}	{Padova (Italy)}
 		{Achieved with 100/110 at "Università degli Studi di Padova"\footnotemarkA[2]\\
@@ -144,26 +167,7 @@ Italy} % Short address/location, use \newline if more than 1 line is required
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{Work Experience}
 
-\begin{twenty} % Environment for a list with descriptions
-	\twentyitem{6/2019-now}
-		{Developer at Ifin Sistemi\footnotemarkA[8]} {Padova (Italy)}
-		{Android/iOS development with Flutter and Fabric - JavaEE development and testing}
-	\twentyitem{2018-2019}
-		{Freelance at "EasyApp srl"\footnotemarkA[7]} {Treviso (Italy)}
-		{Back-end for web and maintenance}
-	\twentyitem{2016-2017}
-		{Developer at "Vision Lab Apps srl"\footnotemarkA[4]}	{Vicenza (Italy)}
-		{Android streaming application for smartphones and glasses.}
-	\twentyitem{2016}
-		{Developer at "Vic World Wide"\footnotemarkA[5] (Stage)}	{Padova (Italy)}
-		{Prototype app for "world 3D reconstruction" using Google-Tango framework\footnotemarkA[6] on mobile devices.}
-	\twentyitem{2014-2016}
-		{Developer at "EasyApp srl"\footnotemarkA[7]}	{Treviso (Italy)}
-		{Front-end and back-end for ERPs.}
-	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
-\end{twenty}
 
 
 
@@ -171,37 +175,51 @@ Italy} % Short address/location, use \newline if more than 1 line is required
 %	 OTHER INFORMATION
 %----------------------------------------------------------------------------------------
 
-\section{IT Skills}
+\section{Skills}
 
-\subsection{Software Development}
+\subsection{Soft Skills}
 \small
-Good knowledge in \textit{procedural}, \textit{object-oriented}, \textit{concurrent} and \textit{functional} programming paradigms.\newline
-Experience with both \textit{agile} and \textit{incremental} software development models.\newline
-Good knowledge of the main Software Engineering topics: such as Design Pattern, SOLID principles, reusability and maintainability.
-Academic experience with AI-related topics such as \textbf{machine learning} and \textbf{neural networks} as well as \textbf{classical artificial intelligence}, game theory, and AI-image processing; practical project using both Matlab/Julia and Python, small research on gpu acceleration for Tensorflow.
-I generally tend to automatize my workflow as much as possible (CI pipeline, automated testing, scripting etc.) \newline
-Personal interest in Arduino/Raspberry projects.\newline
-Teamwork experience acquired during academic and professional projects. I feel confident in switching from a task to another to help colleagues and in asking support when needed. Good skills in using work-management tools such as \textbf{teamwork.com}, \textbf{Trello}, \textbf{Jira}, \textbf{Slack}, etc.\newline
+Experience in team management: two years as Team Leader.\newline
+Teamplayer: always worked in team, can easily relate to both technical and non-technical figures.  \newline
+Fast learner: I feel confident when learning a new skill or technology and I can often be productive right away.\newline
+Good communication skills. \newline
 
+\subsection{Hard Skills}
+\small
+Multi-year professional experience in: \begin{itemize}[noitemsep,nolistsep]
+	\item Enterprise level back-end software design and development.
+	\item Automated testing, ranging from basic unit tests to complex end-to-end Selenium suites.
+	\item Full-stack Android/iOS development.
+	\item \textit{Agile} software development models, such as Scrum.
+\end{itemize}
+Good knowledge in \textit{object-oriented}, \textit{concurrent} and \textit{functional} programming paradigms.\newline
+Keen eye on code maintainability and reusability: I always try to find a good balance between SOLID compliance and code simplicity.\newline
+Good skills in using work-management tools such as \textbf{Jira}, \textbf{Trello}, \textbf{Slack}\newline
+Personal interest in developing games as well as tinkering with Arduinos and Raspberries. \newline
+Academic experience with AI-related topics such as \textbf{machine learning} and \textbf{neural networks} as well as \textbf{classical artificial intelligence}, game theory, and AI-image processing; practical project using both Matlab/Julia and Python, small research on gpu acceleration for Tensorflow. \newline
+% I generally tend to automatize my workflow as much as possible (IDE code generation, CI pipeline, automated testing, scripting etc.) \newline
+
+
+
+\newpage % Start a new page
+\normalsize
+\makeprofileEmpy % Print the sidebar
 
 
 \subsection{Tools and frameworks}
 \small
 \begin{itemize}[noitemsep,nolistsep]
-	\item Good practice with IDEs and frameworks as \textbf{JetBrains Suite (and Android Studio)}, \textbf{QT}, \textbf{Eclipse}.
-	\item Professional experience with \textbf{Git}/\textbf{GitFlow} both with CLI and graphical interfaces. Basic understanding of \textit{Subversion} and \textit{Mercurial}.
-	\item Strong skills with \textbf{Android framework}, \textbf{Flutter} and \textbf{Firebase suite}.
-	\item Academic project with Scikit-learn and TensorFlow
-	\item Practice with database engines as \textbf{MySQL} and \textbf{Firebase Database}.
+	\item Strong skills with \textbf{JavaEE}, \textbf{Spring}/\textbf{Springboot}, \textbf{Android framework} and \textbf{Flutter}.
+	\item Professional experience with VCS such as \textbf{Git}/\textbf{GitFlow}. Basic understanding of \textit{Subversion} and \textit{Mercurial}.
+	\item Practice with database engines as \textbf{Oracle}, \textbf{MSSQL}, \textbf{PostgreSQL} and \textbf{Firebase Database}.
+	\item Good knowledge of IDEs such as \textbf{JetBrains Suite/Android Studio}, \textbf{QT}, \textbf{Eclipse}.
+	% \item Academic project with Scikit-learn and TensorFlow
+	\item Some experience with game-engines such as \textbf{Godot}, \textbf{Unity} and \textbf{Unreal Engine}, mainly for personal interest.
 	\item Good knowledge of \textbf{UML} graphical language and UML-editors (e.g. \textbf{Astah}).
-	\item Some experience with game-engines such as \textbf{Unreal Engine}, \textbf{Unity} and \textbf{Kore}, mainly for personal interest.
 \end{itemize}
 
 
-\newpage % Start a new page
 
-\normalsize
-\makeprofileEmpy % Print the sidebar
 
 \subsection{Programming languages}
 \begin{minipage}[t]{0.33\linewidth}
@@ -231,7 +249,6 @@ Teamwork experience acquired during academic and professional projects. I feel c
 		\item Javascript/Typescript
 		\item Kotlin
 		\item Bash
-		\item Julia
 	\end{itemize}
 \end{minipage}
 
@@ -247,6 +264,7 @@ Teamwork experience acquired during academic and professional projects. I feel c
 \begin{itemize}[noitemsep,nolistsep]
 	\item \textbf{Actobase:} NoSQL database based on the actor model written in Scala with akka. Developed in a group of seven students during an academic project. Source code available at: \url{https://github.com/SweeneyThreads/Actorbase}.
 	\item \textbf{Baobab:} Small set of Python scripts for simple medical image analysis. Developed for/with a PhD in psychiatry. \url{https://github.com/TommasoPadovan/Baobab}
+	\item \textbf{Some Godot games:} \url{https://gitlab.com/pado_godot_games}
 	\item \textbf{Other academic projects:} \\\url{https://github.com/TommasoPadovan/ProgettiUniPDTriennale}
 \end{itemize}
 
